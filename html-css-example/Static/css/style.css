@@ -1,0 +1,215 @@
+body {
+  background-image: url("/home/gulsah/Teams/Crownest/practices/html-css-example/Static/img/user.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.header {
+  background-color: rgb(120,120,120);
+  opacity: 0.6;
+  height: 150px;
+  width: 100%;
+}
+
+.header .altbaslik {
+  color: white;
+  text-align: left;
+  font-family: "Times New Roman";
+  font-style: normal;
+  padding-top: 20px;
+}
+
+.header .altbaslik h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-indent: 50px;
+}
+
+.header .altbaslik h4 {
+  font-weight: normal;
+  font-size: 10px;
+  text-indent: 50px; 
+}
+
+.header .menu {
+  margin-top: -40px;
+  float: right;
+}
+
+.header .menu li {
+  float: left;
+  padding: 10px;
+}
+
+.header .menu a:hover {
+  background-color: green;
+}
+
+.slider {
+  background-color: rgb(120,120,120);
+  opacity: 0.6;
+  font-family: "Times New Roman";
+  color:white;
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  height: 250px;
+}
+
+.slider .metin {
+  width: 530px;
+  padding-left: 10px;
+}
+
+.slider .metin h1,h2 {
+  font-size: 45px;
+  text-indent: 50px;
+}
+
+.slider .metin p,h3 {
+  font-size: 15px;
+  text-indent: 50px;
+}
+
+.slider .metin a:hover {
+  background-color: green;
+}
+
+.slider figure {
+  float: right;
+  border-radius: 50%;
+  border: 15px solid rgb(30, 30, 30, .7);
+  width: 250px;
+  height: 130px;
+  position: absolute;
+  overflow: hidden;
+  right: 250px;
+  top: 150px;
+}
+
+.content {
+  margin: 50px 0px 0px 0px;
+  width: 1024px;  
+}
+
+.content .gallery {
+  margin: 0px 20px 50px 70px;
+}
+
+.content .gallery a {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.content .gallery a img {
+  width: 175;
+  height: 225;
+  padding-top: 40px;
+}
+
+.blok .kutu {
+  background:black;
+  width: 500px;
+  float: center;
+  z-index: 2;
+  margin: auto;
+}
+
+.blok .cizgi {
+  height: 0px;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: -40px;
+  z-index: 1;
+}
+
+.kutu p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.content  a {
+  text-decoration: none;
+  outline: none;
+}
+
+.content .gallery1 {
+  margin: 100px 0px 0px 70px;
+}
+
+.content .gallery1 .user figure {
+  margin: 0px 20px 40px 0px;
+  border: 4px solid white;
+  float: left;
+}
+
+.content .gallery1 .user:hover figure {
+  border: 4px solid green;
+}
+
+.content .gallery1 .user img {
+  width: 275px;
+  height: 200px;
+}
+
+.content .gallery2 {
+  margin: 50px 0px 0px 70px; 
+}
+
+.content .gallery2 .user figure {
+  margin: 0px 20px 40px 0px;
+  border: 4px solid white;
+  float: left;
+}
+
+.content .gallery2 .user:hover figure {
+  border: 4px solid green;
+}
+
+.content .gallery2 .user img {
+  width: 275;
+  height: 200;
+}
+
+.footer {
+  margin: 50px 0px 0px 0px;
+  padding: 15px;
+  background: black;
+  opacity: 0.4;
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+.footerbox {
+  float: left;
+  width: 25%;
+}
+
+.footerbox h1 {
+  padding: 5px;
+}
+
+.footerbox .form-group input {
+  display: block;
+}
+
+.footerbox .form-group textarea {
+  width:245px;
+  height: 70px;
+}
+
+.footerbox .form-group button {
+  background-color: green;
+  color: black;
+  display: block;
+}
